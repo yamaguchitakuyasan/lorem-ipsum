@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 70px;
+	float: left;
+}
+
+.nav {
+	height: 70px;
+	list-style: none;
+	width: 480px;
+	float: right;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+.nav-list {
+	font-size: 16px;
+	color: #FAFAFA;
+	float: left;
+	width: 120px;
+	padding: 0 30px;
+}
+
+.main-visual {
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.main-visual-content {
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 10px
+}
+
+.main-visual-subject {
+	font-size: 64px;
+	color: #FAFAFA;
+}
+
+.main-visual-text {
+	font-size: 20px;
+	color: #FAFAFA;
+	padding-top: 10px ;
+}
+
+.portfolio {
+	background-color: #ECEFF1;
+}
+
+.heading {
+	font-size: 32px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 90px;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.text {
+	padding-top: 30px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.portfolio-group {
+	width: 920px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.portfolio-image1 {
+	background-image: url(img/sketch.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: 100% 100%;
+	float: left;
+	margin:10px 10px 10px 0;
+	background-size: cover;
+	background-position: center;
+	padding-right: 10px;
+}
+
+.portfolio-image2 {
+	background-image: url(img/websuku.png);
+	width: 300px;
+	height: 250px;
+	background-size: 100% 100%;
+	float: left;
+	margin:10px 10px 10px 0;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.portfolio-image3 {
+	background-image: url(img/write.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: 100% 100%;
+	float: left;
+	margin:10px 0 10px 0;
+	background-size: cover;
+	background-position: center;
+}
+
+.portfolio-image4 {
+	background-image: url(img/webcamp.png);
+	width: 300px;
+	height: 250px;
+	background-size: 100% 100%;
+	float: left;
+	margin:10px 10px 10px 0;
+	background-size: cover;
+	background-position: center;
+}
+
+.portfolio-image5 {
+	background-image: url(img/talk.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: 100% 100%;
+	float: left;
+	margin:10px 10px 10px 0;
+	background-size: cover;
+	background-position: center;
+}
+
+.portfolio-image6 {
+	background-image: url(img/webcamp-mother.png);
+	width: 300px;
+	height: 250px;
+	background-size: 100% 100%;
+	float: left;
+	margin:10px 0 10px 0;
+	background-size: cover;
+	background-position: center;
+}
+
+#feature{
+	background-size: cover;
+	background-position: center;
+}
+
+.strength-group {
+	width: 980px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.strength {
+	width: 320px;
+	font-size: 60px;
+	text-align: center;
+	float: left;
+    margin-right: 10px;
+}
+
+.fas {
+	color: black;
+}
+
+.strength:last-child {
+	margin-right: 0;
+}
+
+.strength-name {
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+.feature-text {
+	text-align: left;
+	font-size: 16px;
+}
+
+.profile {
+	background-color: #ECEFF1;
+}
+
+.profile-content {
+	width: 1024px;
+	height: 900px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.profile-group {
+	padding: 30px 0 90px 0;
+}
+
+.profile-left-content {
+	width: 512px;
+	height: 270px;
+	float: left;
+}
+
+.face {
+	background-image: url(img/my-icon.jpg);
+	height: 250px;
+	width: 250px;
+	border-radius: 1000px;
+	margin: 0 auto;
+}
+
+.profile-right-content {
+	float: left;
+	height: 250px;
+	width: 512px;
+}
+
+.discription-title {
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.introduciton-text {
+	text-align: left;
+}
+
+.discription-title {
+	margin: 20px 0 5px 0;
+	font-size: 20px;
+}
+
+.discription-title:first-child{
+	margin-top: 0;
+	padding: 0;
+}
+
+.contact-group {
+	width: 800px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.left-content {
+	width: 50%;
+	float: left;
+}
+
+.left-contact-content {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.link-text {
+	text-decoration: underline;
+	color: #212121;
+}
+
+.right-content {
+	width: 50%;
+	float: right;
+}
+
+.right-contact-content {
+	width: 210px;
+	margin: 0 auto;
+}
+
+.fab {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.right-contact-content .fab:last-child{
+	margin-right: 0;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+
+.footer-container{
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+
