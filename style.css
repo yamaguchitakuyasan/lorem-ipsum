@@ -298,9 +298,163 @@ footer {
 	padding: 20px 0 20px 0;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
 	.container {
 		width: 90%;
-		margin: 0 5px;
 	}
+
+	header{
+		height: 50px;
+	}
+
+	.logo{
+		float: none;
+		height: 50px;
+	}
+
+	.menu-box{
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.list-bar{
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA;
+	}
+
+	.list-bar:first-child{
+		margin-top: 10px;
+	}
+
+	.nav {
+		float: none;
+	}
+
+	.nav-list {
+		float: none;
+		display: none;
+		width: 100%;
+		line-height: 50%;
+		border-bottom: 1px solid gray;
+		text-align: center;
+		background-color: rgba(0,0,0,9);
+	}
+
+	.nav-list:last-child{
+		border: none;
+	}
+
+	#main-visual {
+		background-image: url(img/code.png);
+	}
+
+	.main-visual-subject {
+	    font-size: 40px;
+    }
+
+    .main-visual-text {
+    	font-size: 18px;
+    }
+
+    #portfolio {
+    	padding: 0 5%;
+    }
+
+    .portfolio-image1, .portfolio-image3,  .portfolio-image5 {
+    	display: none;
+    }
+
+    .portfolio-group {
+	    width: 300px;
+    }
+
+    .portfolio-image1, .portfolio-image2, .portfolio-image3, .portfolio-image4,.portfolio-image5, .portfolio-image6 {
+    	float: none;
+    }
+
+    #feature {
+    	padding: 0 5%;
+    	background-size: cover;
+    	background-position: center;
+    }
+
+    .strength-group {
+    	width: 320px;
+    }
+
+    .strength {
+    	float: none;
+    	margin-top: 10px;
+    }
+
+    .strength:first-child {
+    	margin-top: 0;
+    }
+
+    #profile{
+		padding: 0 5%;
+	}
+
+    .profile-left-content {
+    	float: none;
+    	width: 100%;
+    }
+
+    .profile-right-content {
+    	float: none;
+    	width: 100%;
+    }
+
+    .discription-title {
+    	text-align: center;
+    }
+
+    .discription-title:first-child {
+    	text-align: center;
+    	margin-top: 20px;
+    }
+
+    .introduction-text {
+    	text-align: center;
+    }
+
+    #contact {
+    	padding: 0 5px;
+    }
+
+    .contact-group {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .left-content {
+    	float: none;
+    	width: 100%;
+    }
+
+    .left-contact-content {
+    	width: 100%;
+    }
+
+    .right-content {
+    	float: none;
+    	width: 100%;
+    }
+
+    .right-contact-content {
+    	width: 100%;
+    	margin-top: 20px;
+    }
+
+    .fab {
+    	margin-right: 8px;
+    }
 }
